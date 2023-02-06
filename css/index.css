@@ -1,0 +1,137 @@
+.section-heading-center {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.section-heading-center span {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+#index .hero .btn-all:nth-of-type(2) {
+  background-color: #fff;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  margin-left: 2rem;
+}
+#index .about-us {
+  background-color: var(--color-bg);
+}
+#index .about-us .counter {
+  align-items: center;
+}
+#index .about-us .counter .col:nth-of-type(2) {
+  border-left: 0.3rem solid var(--color-primary);
+  border-right: 0.3rem solid var(--color-primary);
+}
+#index .about-us .col p:first-of-type {
+  font-size: var(--h3-fontsize);
+  color: #000;
+  font-weight: 500;
+}
+#index .about-us .col p {
+  text-align: center;
+}
+#index .our-planning .card {
+  text-align: center;
+}
+#index .our-planning .card .card-body {
+  position: relative;
+}
+#index .our-planning .card span {
+  position: absolute;
+  top: 0;
+  right: 0%;
+  font-size: var(--h1-fontsize);
+  color: #0e1f51;
+  opacity: 0.1;
+  font-weight: 800;
+}
+#index .our-planning h3 {
+  padding: 1.5rem 1rem;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+#index .our-planning i {
+  font-size: var(--h1-fontsize);
+  color: var(--color-primary);
+}
+#index .our-planning h3::before {
+  content: "";
+  position: absolute;
+  border: 0.3rem solid var(--color-primary);
+  border-radius: 0.8rem;
+  width: 20%;
+  bottom: -5%;
+  left: 30%;
+}
+#index .our-planning h3::after {
+  content: "";
+  position: absolute;
+  border: 0.3rem solid var(--color-primary);
+  border-radius: 0.8rem;
+  width: 10%;
+  bottom: -5%;
+  left: 53%;
+}
+#index .what-we-do {
+  background-color: var(--color-bg);
+}
+#index .what-we-do .card .card-body {
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  display: flex;
+  background: #ffffff;
+  border-radius: 0.5rem;
+}
+#index .what-we-do .card .card-body .card-text h3 {
+  color: var(--color-primary);
+  font-size: var(--p-h4-fontsize);
+}
+#index .what-we-do .card .card-body .card-icon {
+  background-color: #df751f1f;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+#index .what-we-do .card .card-body .card-icon i {
+  color: var(--color-primary);
+  font-size: var(--h2-fontsize);
+}
+#index .our-expertise .card h3 {
+  padding: 1.5rem 0;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+#index .our-expertise .card h3::before {
+  content: "";
+  position: absolute;
+  border: 0.3rem solid var(--color-primary);
+  border-radius: 0.6rem;
+  background: var(--color-primary);
+  left: 0;
+  bottom: -5%;
+  width: 20%;
+}
+#index .our-expertise .card h3::after {
+  content: "";
+  position: absolute;
+  border: 0.3rem solid var(--color-primary);
+  border-radius: 0.6rem;
+  background: var(--color-primary);
+  left: 23%;
+  bottom: -5%;
+  width: 10%;
+}
+#index .our-expertise i {
+  font-size: var(--h1-fontsize);
+  color: var(--color-primary);
+}
+#index .teams p {
+  text-align: center;
+  font-size: var(--h5-fontsize);
+}
+#index .teams h3 {
+  text-align: center;
+  color: var(--color-primary);
+  padding: 0.8rem 0 0;
+  font-size: var(--p-h4-fontsize);
+}

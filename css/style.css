@@ -1,0 +1,126 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  font-size: 62.5%;
+  --color-primary: #df761f;
+  --color-text: #666;
+  --color-bg: #f7f7f7;
+  --color-card-background: #fefef9;
+  --h1-fontsize: clamp(3.5rem, 3vw, 7rem);
+  --h2-fontsize: clamp(3rem, 2vw, 5rem);
+  --h3-fontsize: clamp(2rem, 1.3vw, 3.8rem);
+  --p-h4-fontsize: clamp(1.5rem, 1.1vw, 3rem);
+  --h5-fontsize: clamp(1.3rem, 0.9vw, 2.5rem);
+  --h6-fontsize: clamp(1.1rem, 0.8vw, 2rem);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+html {
+  scroll-behavior: smooth;
+  color: var(--color-primary);
+}
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+.btn-all {
+  display: inline-block;
+  font-size: var(--p-h4-fontsize);
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-primary);
+  font-weight: 600;
+}
+section {
+  padding: 4rem 0;
+}
+p {
+  text-align: justify;
+  font-size: var(--p-h4-fontsize);
+  color: var(--color-text);
+}
+li {
+  color: var(--color-text);
+  font-size: var(--p-h4-fontsize);
+}
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+h1 {
+  font-size: var(--h1-fontsize);
+  font-weight: 700;
+}
+h2 {
+  font-size: var(--h2-fontsize);
+  font-weight: 700;
+}
+h3 {
+  font-size: var(--h3-fontsize);
+  font-weight: 600;
+}
+h4 {
+  font-size: var(--p-h4-fontsize);
+}
+h5 {
+  font-size: var(--h5-fontsize);
+}
+h6 {
+  font-size: var(--h6-fontsize);
+}
+img,
+picture,
+svg,
+video {
+  max-width: 100%;
+  height: auto;
+}
+.section-heading {
+  margin-bottom: 2rem;
+}
+.section-heading span {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+.section-heading span:nth-child(2) {
+  margin: 1.5rem 0;
+}
+.card {
+  border-radius: 1rem;
+  background-color: var(--color-card-background);
+  border: none;
+}
+.card-body {
+  padding: clamp(0.5rem, 100vw, 1.8rem);
+}
+header .navbar-brand img {
+  width: clamp(90px, 100vw, 140px);
+}
+header .navbar .nav-item .nav-link {
+  background-image: linear-gradient(
+    90deg,
+    var(--color-primary) 0,
+    var(--color-primary) 95%
+  );
+  background-size: 0 2px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 0.3s ease, color 0.3s ease;
+  color: #000;
+  font-weight: 600;
+}
+header .navbar .nav-item .nav-link:hover {
+  color: var(--color-primary);
+  background-size: 100% 2px;
+}
