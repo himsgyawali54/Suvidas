@@ -53,6 +53,7 @@ p {
 li {
   color: var(--color-text);
   font-size: var(--p-h4-fontsize);
+  list-style: none;
 }
 a {
   text-decoration: none;
@@ -85,6 +86,10 @@ svg,
 video {
   max-width: 100%;
   height: auto;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 .section-heading {
   margin-bottom: 2rem;
@@ -123,4 +128,54 @@ header .navbar .nav-item .nav-link {
 header .navbar .nav-item .nav-link:hover {
   color: var(--color-primary);
   background-size: 100% 2px;
+}
+footer {
+  margin-top: 5rem;
+  padding: 2.5rem 0 0.5rem;
+  background-color: var(--color-primary);
+  color: #fff;
+}
+footer .card {
+  width: fit-content;
+}
+footer .card img {
+  width: clamp(70px, 100vw, 150px);
+}
+footer p {
+  color: #fff;
+  margin: 2rem 0;
+}
+footer .container .row {
+  justify-content: space-around;
+}
+footer li a {
+  color: #fff;
+}
+footer .social-links {
+  display: flex;
+  gap: 1rem;
+  padding-left: 0;
+}
+footer .social-links i {
+  background-color: #fff;
+  padding: 0.8rem 1rem;
+  border-radius: 5rem;
+  color: var(--color-primary);
+}
+footer ol {
+  list-style: none;
+  padding-left: 0;
+}
+.call-to-action {
+  background-image: url("../img/call-to-action.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.call-to-action p {
+  text-align: center;
+  color: #fff;
+  font-size: var(--h3-fontsize);
+  font-weight: 600;
+  letter-spacing: 0.1rem;
 }

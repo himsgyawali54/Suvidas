@@ -1,0 +1,25 @@
+#other-pages .hero {
+  background-color: var(--color-primary);
+  text-align: center;
+  color: #fff;
+}
+#other-pages .hero p {
+  text-align: center;
+  color: #fff;
+}
+#other-pages .hero a {
+  color: #fff;
+}
+#other-pages .career .container .vacancy h2 {
+  text-align: center;
+  margin: 4rem 0 2rem;
+}
+#other-pages .project p {
+  padding-top: 1rem;
+  font-weight: 600;
+}
+#other-pages .teams h3 {
+  color: var(--color-primary);
+  padding: 0.8rem 0 0;
+  font-size: var(--p-h4-fontsize);
+}

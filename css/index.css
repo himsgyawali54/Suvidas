@@ -1,10 +1,13 @@
 .section-heading-center {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   text-align: center;
 }
 .section-heading-center span {
   color: var(--color-primary);
   font-weight: 700;
+}
+.section-heading-center p {
+  text-align: center;
 }
 #index .hero .btn-all:nth-of-type(2) {
   background-color: #fff;
@@ -15,12 +18,15 @@
 #index .about-us {
   background-color: var(--color-bg);
 }
+
 #index .about-us .counter {
   align-items: center;
 }
-#index .about-us .counter .col:nth-of-type(2) {
-  border-left: 0.3rem solid var(--color-primary);
-  border-right: 0.3rem solid var(--color-primary);
+@media (width >= 576px) {
+  #index .about-us .counter .col:nth-of-type(2) {
+    border-left: 0.3rem solid var(--color-primary);
+    border-right: 0.3rem solid var(--color-primary);
+  }
 }
 #index .about-us .col p:first-of-type {
   font-size: var(--h3-fontsize);
@@ -75,6 +81,9 @@
 #index .what-we-do {
   background-color: var(--color-bg);
 }
+#index .what-we-do .card {
+  height: 100%;
+}
 #index .what-we-do .card .card-body {
   align-items: center;
   justify-content: space-around;
@@ -87,6 +96,7 @@
   color: var(--color-primary);
   font-size: var(--p-h4-fontsize);
 }
+
 #index .what-we-do .card .card-body .card-icon {
   background-color: #df751f1f;
   border-radius: 0.5rem;
@@ -125,13 +135,90 @@
   font-size: var(--h1-fontsize);
   color: var(--color-primary);
 }
+#index .teams {
+  background-color: var(--color-bg);
+  text-align: center;
+}
 #index .teams p {
   text-align: center;
   font-size: var(--h5-fontsize);
 }
 #index .teams h3 {
-  text-align: center;
   color: var(--color-primary);
   padding: 0.8rem 0 0;
   font-size: var(--p-h4-fontsize);
+}
+#index .testimonials .swiper-slide {
+  height: min-content !important;
+}
+#index .testimonials .card {
+  position: relative;
+}
+#index .testimonials .card-body i {
+  transform: scaleX(-1);
+  position: absolute;
+  top: 0%;
+  right: 5%;
+  font-size: clamp(3rem, 100vw, 8rem);
+  color: var(--color-primary);
+}
+#index .testimonials .card-body p:nth-of-type(2) {
+  color: var(--color-primary);
+  margin-bottom: 0;
+  font-weight: 600;
+}
+#index .testimonials .swiper-pagination {
+  bottom: 0%;
+}
+#index .testimonials .swiper-pagination-bullet-active {
+  background-color: var(--color-primary);
+}
+.contact-us .card form .form-control {
+  padding: 0.8rem;
+  background-color: var(--color-bg);
+  font-size: var(--p-h4-fontsize);
+  resize: none;
+  margin-bottom: 1.5rem;
+}
+.contact-us .card form input,
+textarea::placeholder {
+  font-weight: 500;
+}
+.contact-us .card .card-section {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  color: var(--color-primary);
+  margin-bottom: 1.5rem;
+}
+.contact-us .card .card-section .card-icon {
+  background-color: var(--color-bg);
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: var(--h2-fontsize);
+}
+.contact-us .card .card-section .card-text p {
+  font-size: var(--h5-fontsize);
+  font-weight: 500;
+  line-height: 1.2rem;
+  margin-top: 1rem;
+}
+.contact-us .card .social-media {
+  text-align: center;
+}
+.contact-us .card .social-media h3 {
+  margin: 2rem 0;
+}
+.contact-us .card .social-media ul {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.contact-us .card .social-media ul i {
+  color: #fff;
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 1rem;
+  font-size: var(--h3-fontsize);
+  border-radius: 1rem;
 }
