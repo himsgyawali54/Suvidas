@@ -151,6 +151,9 @@
 #index .testimonials .swiper-slide {
   height: min-content !important;
 }
+#index .testimonials .swiper-slide .card img {
+  border-radius: 50%;
+}
 #index .testimonials .card {
   position: relative;
 }
@@ -173,52 +176,53 @@
 #index .testimonials .swiper-pagination-bullet-active {
   background-color: var(--color-primary);
 }
-.contact-us .card form .form-control {
+#contact-us .card form .form-control {
   padding: 0.8rem;
   background-color: var(--color-bg);
   font-size: var(--p-h4-fontsize);
   resize: none;
   margin-bottom: 1.5rem;
 }
-.contact-us .card form input,
+#contact-us .card form input,
 textarea::placeholder {
   font-weight: 500;
 }
-.contact-us .card .card-section {
+#contact-us .card .card-section {
   display: flex;
   gap: 2rem;
   align-items: center;
   color: var(--color-primary);
   margin-bottom: 1.5rem;
+  position: relative;
 }
-.contact-us .card .card-section .card-icon {
+#contact-us .card .card-section .card-icon {
   background-color: var(--color-bg);
   border-radius: 1rem;
   padding: 1rem;
   font-size: var(--h2-fontsize);
 }
-.contact-us .card .card-section .card-text p {
+#contact-us .card .card-section .card-text p {
   font-size: var(--h5-fontsize);
   font-weight: 500;
   line-height: 1.2rem;
   margin-top: 1rem;
 }
-.contact-us .card .social-media {
+#contact-us .card .social-media {
   text-align: center;
 }
-.contact-us .card .social-media h3 {
+#contact-us .card .social-media h3 {
   margin: 2rem 0;
 }
-.contact-us .card .social-media ul {
+#contact-us .card .social-media ul {
   display: flex;
   gap: 1rem;
   justify-content: center;
 }
-.contact-us .card .social-media ul i {
+#contact-us .card .social-media ul i {
   color: #fff;
   background-color: var(--color-primary);
   color: #fff;
-  padding: 1rem;
+  padding: 0.8rem 1rem;
   font-size: var(--h3-fontsize);
   border-radius: 1rem;
 }

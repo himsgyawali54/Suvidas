@@ -10,29 +10,26 @@ class MyFooter extends HTMLElement {
                 <img src="./img/suvedas-logo.svg" alt="Suvedas Logo" />
               </div>
               <p>
-                Our boundless imagination helps us to help business solve their
-                problem with technology in an innovative way.
+              Transform your innovative ideas into startups through our comprehensive services.
               </p>
               <ul class="social-links">
                 <li>
                   <a href="/"><i class="bi-facebook"></i></a>
                 </li>
                 <li>
-                  <a href="/"><i class="bi-facebook"></i></a>
+                  <a href="/"><i class="bi bi-linkedin"></i></a>
                 </li>
                 <li>
-                  <a href="/"><i class="bi-facebook"></i></a>
+                  <a href="/"><i class="bi bi-youtube"></i></a>
                 </li>
-                <li>
-                  <a href="/"><i class="bi-facebook"></i></a>
-                </li>
+              
               </ul>
             </div>
             <div class="col-12 col-md-6 col-lg-2">
               <h3>Quick Links</h3>
               <ol>
                 <li><a href="/">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li><a href="project.html">Projects</a></li>
                 <li><a href="teams.html">Teams</a></li>
                 <li><a href="blogs.html">Blogs</a></li>
                 <li><a href="career.html">Career</a></li>
